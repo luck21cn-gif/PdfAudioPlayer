@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PDF音频播放器</string>
+    <string name="open_pdf">打开PDF文件</string>
+    <string name="open_audio">选择音频</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="stop">停止</string>
+    <string name="prev_page">上一页</string>
+    <string name="next_page">下一页</string>
+    <string name="page_indicator">第 %1$d / %2$d 页</string>
+    <string name="notification_channel_name">音频播放</string>
+    <string name="notification_channel_description">用于控制音频播放的通知</string>
+    <string name="audio_playing">正在播放音频</string>
+    <string name="pdf_viewer">PDF查看器</string>
+</resources>

@@ -1,0 +1,23 @@
+PdfAudioPlayer/
+├── app/
+│   ├── build.gradle.kts
+│   ├── src/main/
+│   │   ├── AndroidManifest.xml
+│   │   ├── java/com/example/pdfaudioplayer/
+│   │   │   ├── MainActivity.kt             （主Activity - PDF渲染与手势）
+│   │   │   ├── AudioPlaybackService.kt     （音频前台服务）
+│   │   │   ├── AudioViewModel.kt           （音频状态管理）
+│   │   │   ├── NotificationHelper.kt      （通知渠道创建）
+│   │   │   └── ui/theme/
+│   │   │       └── Theme.kt                （基础主题）
+│   │   └── res/
+│   │       ├── layout/
+│   │       │   └── activity_main.xml        （主布局）
+│   │       ├── values/
+│   │       │   ├── strings.xml             （字符串资源）
+│   │       │   └── themes.xml              （主题样式）
+│   │       ├── drawable/                    （图标资源）
+│   │       └── mipmap-hdpi/ (etc.)         （应用图标）
+├── build.gradle.kts                         （项目级构建文件）
+├── settings.gradle.kts                      （项目设置）
+└── gradle.properties                        （Gradle属性）
